@@ -1,0 +1,335 @@
+<!DOCTYPE html><!--HTML格式--> 
+<html lang="en-US">
+  <head>
+    <title>GoArt</title>
+	<style>
+	
+#go_art_logo{
+    width: 10%;
+    height: 90%;
+}
+div.top_bar_text {
+    width: 10%;
+    height: 100%;  
+    text-align:center;
+    //padding-top:2%;
+    line-height:300%;
+    //font-size:auto;
+    //border: 3px solid #73AD21;
+  font-size: 1.5vw;
+}
+#log_in,#search{
+  margin:1.5%;
+}
+#log_in{
+  text-decoration: none;
+  color:#000000;
+}
+#search {
+  color:#000000;
+  width: 10%;
+  border-radius:5px;
+  border-color:transparent;
+  background: url('http://www.freeiconspng.com/uploads/search-icon-png-21.png') no-repeat;
+  background-color:#AAAAAA;
+  background-size:13% auto;
+  padding: 0.2% 0.2% 0.2% 2%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333333;
+}
+#letyourcolorsshineword{
+  font-weight:bold;
+  margin-left:25%;
+}
+#middle_region{
+  width:100%;
+  background-image:url('https://thephidiaries.files.wordpress.com/2009/07/lois-greenfield-photography-acrobatics.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  //vertical-align:center;
+  line-height:2000%;
+  
+}
+#bottom_region{
+  padding-top:3%;
+  
+}
+#bottom_1{
+  background-color:grey;
+  padding-top:0.5%;
+  padding-left:0.5%;
+  padding-right:0.5%;
+  padding-bottom:1%;
+  margin-top:1%;
+  margin-left:5%;
+  width:17%;
+  height:70%;      
+}
+#bottom_2{
+  background-color:grey;
+  padding-top:0.5%;
+  padding-left:0.5%;
+  padding-right:0.5%;
+  padding-bottom:1%;
+  margin-top:1%;
+  margin-left:5%;
+  width:17%;
+  height:70%; 
+  
+}
+#bottom_3{
+  background-color:grey;
+  padding-top:0.5%;
+  padding-left:0.5%;
+  padding-right:0.5%;
+  padding-bottom:1%;
+  margin-top:1%;
+  margin-left:5%;
+  width:17%;
+  height:70%;      
+}
+#bottom_4{
+  background-color:grey;
+  padding-top:0.5%;
+  padding-left:0.5%;
+  padding-right:0.5%;
+  padding-bottom:1%;
+  margin-top:1%;
+  margin-left:5%;
+  width:17%;
+  height:70%;      
+}
+#dance{
+  position:absolute;
+  left:5%;
+  top:65%;
+  width:18%;
+  height:10%;
+  background-color:#f6cf6f;
+  opacity: 0.7;
+  text-align:center;
+  line-height:190%;
+}
+#painting{
+  position:absolute;
+  left:28%;
+  top:65%;
+  width:18%;
+  height:10%;
+  background-color:#f6cf6f;
+  opacity: 0.7;
+  text-align:center;
+  line-height:190%;
+  
+}
+#theatre{
+  position:absolute;
+  left:51%;
+  top:65%;
+  width:18%;
+  height:10%;
+  background-color:#f6cf6f;
+  opacity: 0.7;
+  text-align:center;
+  line-height:190%;
+  
+}#music{
+  position:absolute;
+  left:74%;
+  top:65%;
+  width:18%;
+  height:10%;
+  background-color:#f6cf6f;
+  opacity: 0.7;
+  text-align:center;
+  line-height:190%;
+  
+}
+div.grey_words{
+  color:#999999;
+  
+}
+#youtube_frame{
+  margin-top:2%;
+  margin-left:4%;
+  padding-left:4%; 
+  padding-right:4%;
+  padding-bottom:1%;
+  background-color:black;
+  
+}
+#right_discription{
+  float:right;
+  margin-top:2%;
+  margin-right:30%;
+  line-height:1em;
+}
+.button{
+    background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    background-image: -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    background-image: -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    border: none;
+    border-radius: .5em;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family:sans-serif;
+    font-size: 100%;
+    line-height: 1.5em;
+    padding: 1% 2% 1%;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color:#f6cf6f;
+}
+#view_button{
+  position:absolute;
+  margin-top: -10%;
+  
+}
+#back_button{
+ position:absolute;
+ margin-left:10%;
+}
+
+.progress-bar {
+ width: 40%;
+ height: 5px;
+ position: absolute;
+ background:#000000;
+}
+progress::-webkit-progress-bar { background: transparent;}
+progress::-webkit-progress-value {background-color:#f6cf6f;}
+
+
+
+
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+	</style>  
+	
+  </head>
+  
+  <body style="height: 600px;font-family:sans-serif;" >
+	<div id="top_region" style="height:10%; width=100%;">
+		<div  >
+    <img style="float:left;"id="go_art_logo"src="http://i.imgur.com/5JhGHQX.png" />
+    </div>
+		<div id="explore" style="float:left;"class="top_bar_text" >Explore</div>
+		<div id="start_a_project"style="float:left;" class="top_bar_text" >Start a project</div>
+		<div id="about_us" style="float:left;"class="top_bar_text">About us</div>
+    <a style="float:right;" id="log_in" href="">Log in</a>
+    <input type="text" placeholder="search"style="float:right;" id="search">
+	</div>
+
+	<div id="middle_region" style="height: 70%;width:100%;" >
+    <div style="font-size:150%;"id="letyourcolorsshineword">Let Your Colors Shine</div>
+    <a id="view_button" class="button" href="javascript:void(0);">View Project</a> 
+	</div>
+	
+	<div id="bottom_region" style="height: 70%; position:relative;">
+        <img id="bottom_1"  style="float:left;"src="https://s-media-cache-ak0.pinimg.com/564x/ee/7a/fa/ee7afabd874a7fe4e88fb1f462ae21d3.jpg">
+        <div id="dance">DANCE</div> 
+		<img id="bottom_2" style="float:left;"src="https://s-media-cache-ak0.pinimg.com/564x/f0/54/1d/f0541d942493f15b09cb8e3bd4df4d37.jpg">
+    <div id="painting">PAINTING</div>
+		<img id="bottom_3" style="float:left;"src="https://s-media-cache-ak0.pinimg.com/236x/fe/a0/15/fea0157bbc040a1a8cc1f5db596aa79c.jpg">
+    <div id="theatre">THEATRE</div>
+        <img id="bottom_4" style="float:left;"src="https://s-media-cache-ak0.pinimg.com/564x/84/85/59/848559879ffe5eabeb4663e1d44dddc3.jpg">
+        <div id="music">MUSIC</div>
+    <div > 
+ 
+
+
+</div>
+	</div>
+	
+	<div id="ongoing_region" style="height: 50%;">
+		<div id="project_name" class="black_words">VCU Dance Spring Senior Projects 2017</div><br>
+		<div id="project_subtitle" class="grey_words" >VCU Dance and Choreography seniors seeking support to present their capstone projects in a formal concert.</div>
+		
+    
+    <iframe id="youtube_frame" width="480" height="270" src="https://www.youtube.com/embed/AuLCZ-V0wWI" frameborder="0" allowfullscreen></iframe>
+                                                                
+                                                                                              
+		<div id="right_discription" >
+      <div>
+			<progress value="70" max="100" class="progress-bar"></progress><br><br>
+			<div class="black_words" >$ 10,239</div>
+			<div class="grey_words" >Support</div><br>
+			<div class="black_words" >2</div>
+			<div class="grey_words" >Graphic Designer</div><br>
+			<div class="black_words" >1</div>
+			<div class="grey_words" >Space</div><br>
+      </div>
+      
+      <a id="back_button" class="button" href="javascript:void(0);">Back Project</a>
+      
+		</div>
+    
+	</div>
+	
+
+	
+
+  </body>
+
+
+
+</html>
